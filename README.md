@@ -6,14 +6,14 @@ This project aims to use unsupervised machine learning to analyse cryptocurrency
 
 ## Results
 
-- First, data were preprocessed to remove null values and unnecessary columns. Also, get_dummies was applied to string columns to convert them into numeric ones, that could be used by the machine learning method. Lastly, StandardScale was used to normalize the data.
+- First, data were preprocessed to remove nullgit commit values and unnecessary columns. Also, get_dummies was applied to string columns to convert them into numeric ones, that could be used by the machine learning method. Lastly, StandardScale was used to normalize the data.
 - Then, the PCA method reduced data dimensions to 3 components
 
 ![PCA](Resources/PCA.png)
 
 - The elbow curve chart was created to identify the number of clusters
 
-![Elbow](Resources/crypto_data.csv)
+![Elbow](Resources/Elbow.png)
 
 - The method Kmeans was applied with 4 clusters as a parameter. Both PCA and Kmeans results were merged in a new data frame.
 
